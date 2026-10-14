@@ -1,0 +1,123 @@
+.box2 {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin: auto;
+    width: 300px;
+    height: 500px;
+    gap: 30px;
+    border-radius: 50px;
+}
+
+
+
+.button1 {
+    background-color: red;
+    animation-name: redLight;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+.button2 {
+    background-color: yellow;
+    animation-name: yellowLight;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+
+.button3 {
+    background-color: lime;
+    animation-name: greenLight;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes redLight {
+
+    0%{
+        background-color: red;
+    }
+    30% {
+        background-color: red;
+
+    }
+
+    33%{
+        background-color: rgb(51, 10, 10);
+    }
+    100% {
+        background-color: rgb(51, 10, 10);
+
+    }
+}
+
+@keyframes yellowLight {
+
+    0% {
+        background-color: rgb(80, 75, 5);
+    }
+
+    30% {
+        background-color: rgb(80, 75, 5);
+    }
+
+    64% {
+        background-color: rgb(80, 75, 5);
+    }
+
+    100% {
+        background-color: rgb(80, 75, 5);
+
+    }
+
+    31% {
+        background-color: yellow;
+    }
+
+    63% {
+        background-color: yellow;
+    }
+}
+
+@keyframes greenLight {
+
+    0% {
+        background-color: rgb(10, 60, 10);
+    }
+
+    60% {
+        background-color: rgb(10, 60, 10);
+    }
+
+    91% {
+        background-color: rgb(10, 60, 10);
+    }
+
+    100% {
+        background-color: rgb(10, 60, 10);
+
+    }
+
+    61% {
+        background-color: lime;
+    }
+
+    90% {
+        background-color: lime;
+
+    }
+}
